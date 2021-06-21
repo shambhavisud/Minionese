@@ -1,0 +1,69 @@
+
+:root {
+    --primary: #FCE029;
+    --secondary: #0A75BC;
+
+    --white: #F5F5DC;
+    --brown: #A87A51;
+    --width-break: 600px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  /* margin: 0px; */
+  /* max-width: 800px; */
+  /* margin: auto; */
+  line-height: 2.3em;
+  font-weight: 200;
+   background:var(--primary)/*url("images/bananas.png");*/ 
+}
+.container{
+    padding: 1rem 1rem;
+}
+.container-center{
+    display: block;
+    margin: auto;
+}
+::placeholder {
+    color: beige;
+  }
+.textplace {
+    box-sizing: border-box;
+    
+    width: 100%;
+    max-width: 600px;
+    
+    min-height: 30vh;
+    
+    
+
+    font-size: large;
+    /* padding: 1rem; */
+    /* font-family: inherit; */
+    background-color: var(--brown);
+    overflow: scroll;
+    
+}
+
+.heading{
+    text-align: center;
+    padding: 2rem;
+    /* background-color: url("images/781301.png") */
+    background-color: var(--secondary);
+    margin: 2rem;
+    
+    
+    font-weight: 600;
+    font-size: xx-large;
+}
+#btn-translate{
+    /* margin: 5rem; */
+    background-color: var(--secondary);
+    /* border: #F5F5DC;
+    border-width: 1rem; */
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
