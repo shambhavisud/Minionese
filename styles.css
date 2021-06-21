@@ -57,13 +57,35 @@ body {
     font-weight: 600;
     font-size: xx-large;
 }
+.comehere{
+    text-align: center;
+    color: chocolate;
+    font-weight: 200;
+}
 #btn-translate{
     /* margin: 5rem; */
     background-color: var(--secondary);
     /* border: #F5F5DC;
     border-width: 1rem; */
-    margin: 1rem 0rem;
+    /* margin: 1rem 0rem; */
     padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
+    /* font-family: 'Kalam', cursive; */
+    color: beige;
     font-size: large;
+}
+
+footer{
+
+
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--secondary);
+    color: beige;
+    
+}
+footer p{
+    
+    margin: auto;
+    font-size: larger;
+    max-width: 600px;
 }
